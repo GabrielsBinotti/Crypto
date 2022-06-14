@@ -1,0 +1,17 @@
+{
+    "name": "gabriel/crypto",
+    "description": "Biblioteca para realizar a criptografia e descriptografia de dados usando PHP",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\Crypto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Binotti",
+            "email": "gabriel.s.binotti@hotmail.com"
+        }
+    ],
+    "require": {}
+}
