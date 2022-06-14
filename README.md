@@ -69,5 +69,5 @@ echo "</pre>";
 
 ```
 
-ATENÇÃO: o parametro "iptions" deve ser passado sem ASPAS conforme o valor default é atribuido.
+ATENÇÃO: o parametro "options" deve ser passado sem ASPAS conforme o valor default é atribuido.
 
