@@ -38,36 +38,36 @@ No exemplo acima foi usado os parametros padrões, porém eles podem ser configu
 
 ## PARA SABER TODOS OS TIPOS DE CIPHERS
 ```php
-<?php
+
 $obj_cipher = $crypt->getMethodCipher();
 
 echo "<pre>";
 print_r($obj_cipher);
 echo "</pre>";
-?>
+
 ```
 
 ## PARA SABER TODOS OS TIPOS DE HASH
 ```php
-<?php
+
 $obj_hash = $crypt->getMethodHash();
 
 echo "<pre>";
 print_r($obj_hash);
 echo "</pre>";
-?>
+
 ```
 
 ## PARA SABER TODOS OS TIPOS DE OPTIONS
 ```php
-<?php
+
 $obj_options = $crypt->getMethodOptions();
 
 echo "<pre>";
 print_r($obj_options);
 echo "</pre>";
-?>
+
 ```
 
-ATENÇÃO: o parametro "option" deve ser passado sem ASPAS conforme o valor default é atribuido.
+ATENÇÃO: o parametro "iptions" deve ser passado sem ASPAS conforme o valor default é atribuido.
 
