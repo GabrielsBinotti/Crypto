@@ -5,6 +5,8 @@ Essa biblioteca realiza a criptografia de dados em PHP usando o openssl.
 ### Pré requisitos
 - PHP 7.0 ou superior.
 - Composer instalado (https://getcomposer.org/).
+- Instalar a biblioteca usando o comando:
+composer require gabrielbinotti/crypto
 
 ## Abaixo segue um exemplo básico de seu uso.
 ```php
