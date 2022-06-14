@@ -1,6 +1,6 @@
 <?php
 
-namespace Gabriel\Crypto;
+namespace GabrielBinotti\Crypto;
 
 class Crypto{
 
