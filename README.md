@@ -1,5 +1,10 @@
-'''
+# Biblioteca para criptografia de dados em PHP
 
+Essa biblioteca realiza a criptografia de dados em PHP usando o openssl.
+
+## Abaixo segue um exemplo básico de seu uso.
+```php
+<?php
 use Gabriel\Crypto\Crypto;
 
 # IMPORTANDO O AUTOLOAD
@@ -23,18 +28,20 @@ echo "<br>";
 $texto_descrypt = $crypt->descrypt($texto_encrypt);
 echo "Texto descriptografado: " . $texto_descrypt;
 echo "<br>";
+?>
+```
+No exemplo acima foi usado os parametros padrões, porém eles podem ser configurados da forma que preferir.
 
-'''
-
-'''
-
-# PARA SABER TODOS OS TIPOS DE CIPHERS
+## PARA SABER TODOS OS TIPOS DE CIPHERS
+```php
+<?php
 $obj_cipher = $crypt->getMethodCipher();
 
 echo "<pre>";
 print_r($obj_cipher);
 echo "</pre>";
-
+?>
+```
 # PARA SABER TODOS OS TIPOS DE HASH
 $obj_hash = $crypt->getMethodHash();
 
