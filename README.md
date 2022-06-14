@@ -9,7 +9,7 @@ Essa biblioteca realiza a criptografia de dados em PHP usando o openssl.
 ## Abaixo segue um exemplo básico de seu uso.
 ```php
 <?php
-use Gabriel\Crypto\Crypto;
+use GabrielBinotti\Crypto\Crypto;
 
 # IMPORTANDO O AUTOLOAD
 require_once __DIR__ . "/vendor/autoload.php";
