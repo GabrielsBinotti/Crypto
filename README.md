@@ -2,6 +2,10 @@
 
 Essa biblioteca realiza a criptografia de dados em PHP usando o openssl.
 
+### Pré requisitos
+- PHP 7.0 ou superior.
+- Composer instalado (https://getcomposer.org/).
+
 ## Abaixo segue um exemplo básico de seu uso.
 ```php
 <?php
@@ -42,19 +46,28 @@ print_r($obj_cipher);
 echo "</pre>";
 ?>
 ```
-# PARA SABER TODOS OS TIPOS DE HASH
+
+## PARA SABER TODOS OS TIPOS DE HASH
+```php
+<?php
 $obj_hash = $crypt->getMethodHash();
 
 echo "<pre>";
 print_r($obj_hash);
 echo "</pre>";
+?>
+```
 
-# PARA SABER TODOS OS TIPOS DE OPTIONS
+## PARA SABER TODOS OS TIPOS DE OPTIONS
+```php
+<?php
 $obj_options = $crypt->getMethodOptions();
 
 echo "<pre>";
 print_r($obj_options);
 echo "</pre>";
+?>
+```
 
+ATENÇÃO: o parametro "option" deve ser passado sem ASPAS conforme o valor default é atribuido.
 
-'''
